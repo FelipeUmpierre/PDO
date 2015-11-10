@@ -1,0 +1,33 @@
+{
+  "name": "PDO connection with Design Pattern",
+  "description": "Connect with your database using PDO and Design Pattern.",
+  "version": "0.1",
+  "authors": [
+    {
+      "name": "Felipe Pieretti Umpierre",
+      "email": "umpierre.felipe@gmail.com"
+    }
+  ],
+
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*"
+  },
+
+  "config": {
+    "process-timeout": 600,
+    "preferred-install": "dist",
+    "github-protocols": ["https"]
+  },
+
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+
+  "minimum-stability": "dev",
+  "require": {
+    "symfony/var-dumper": "^3.0@dev",
+    "fzaninotto/faker": "^1.6@dev"
+  }
+}
